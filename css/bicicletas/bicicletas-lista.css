@@ -45,10 +45,12 @@
   transition: 0.25s;
 }
 
-.bicicletas-lista a:hover h3::before {
+.bicicletas-lista a:hover h3::before,
+.bicicletas-lista a:active h3::before {
   width: 20px;
 }
-.bicicletas-lista a:hover img {
+.bicicletas-lista a:hover img,
+.bicicletas-lista a:active img {
   margin-left: 8px;
 }
 .bicicletas-lista li span {

@@ -2,6 +2,7 @@
 @import url(./utilidades/tipografia.css);
 @import url(./utilidades/cores.css);
 @import url(./global/header.css);
+@import url(./global/footer.css);
 
 /* utilidades */
 @import url(./utilidades/componentes.css);
@@ -14,3 +15,12 @@
 
 /* bicicletas */
 @import url(./bicicletas/bicicletas-lista.css);
+@import url(./bicicletas/bicicletas.css);
+
+/* seguros */
+@import url(./seguros/seguros.css);
+@import url(./seguros/vantagens.css);
+@import url(./seguros/perguntas.css);
+
+/* termos */
+@import url(./termos/termos.css);

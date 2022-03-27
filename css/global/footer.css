@@ -14,7 +14,8 @@ footer h3 {
 .footer-contato ul {
   margin-bottom: 32px;
 }
-.footer-contato li:nth-child(even):after {
+.footer-contato ul > li:nth-child(2)::after,
+.footer-contato ul:after {
   content: "";
   display: block;
   max-width: 360px;
@@ -29,6 +30,11 @@ footer h3 {
   display: flex;
   gap: 32px;
 }
+
+.footer a {
+  display: block;
+  max-width: max-content;
+}
 .footer a:hover {
   color: var(--cor-0);
 }
@@ -37,18 +43,16 @@ footer h3 {
   margin-top: 40px;
 }
 
-@media (max-width: 800px)
-{
-  .footer >img{
+@media (max-width: 800px) {
+  .footer > img {
     display: none;
   }
-  .footer{
+  .footer {
     grid-template-columns: 1fr 1fr;
   }
 }
-@media (max-width: 600px)
-{
-  .footer{
+@media (max-width: 600px) {
+  .footer {
     grid-template-columns: 1fr;
     gap: 60px;
   }
